@@ -1,3 +1,13 @@
 fastapi==0.75.0
-uvicorn==0.17.0
-git+https://github.com/Trillzz/mediaflow-proxy.git
+uvicorn==0.32.1
+pydantic!=1.7,!=1.7.1,!=1.7.2,!=1.7.3,!=1.8,!=1.8.1,<2.0.0,>=1.6.2
+starlette==0.17.1
+click>=7.0
+h11>=0.8
+asgiref>=3.4.0
+anyio<4,>=3.0.0
+xmltodict<0.15.0,>=0.14.2
+pycryptodome<4.0.0,>=3.20.0
+gunicorn<24.0.0,>=23.0.0
+beautifulsoup4>=4.12.3
+
